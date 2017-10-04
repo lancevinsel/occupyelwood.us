@@ -24,7 +24,9 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 ol{
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 li{
 
@@ -41,6 +43,7 @@ a{
 .hero {
   background-color: #386d90;
   color: #fff;
+  margin-bottom: 40px;
   padding: 20px 0;
   text-align: center;
 }
@@ -53,22 +56,28 @@ a{
   text-transform: uppercase;
 }
 /*------------------------------------------
+*  News
+------------------------------------------*/
+.news-item {
+  border-bottom: 1px solid #8881a6;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.news-link {
+  color: #386d90;
+  font-size: 24px;
+}
+/*------------------------------------------
+*  Container
+------------------------------------------*/
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+/*------------------------------------------
 *  Stuff from Apache Startup Page
 ------------------------------------------*/
- {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-
-  body, html {
-    padding: 3px 3px 3px 3px;
-
-    background-color: #D8DBE2;
-
-    font-family: Verdana, sans-serif;
-    font-size: 11pt;
-    text-align: center;
-  }
 
   div.main_page {
     position: relative;
