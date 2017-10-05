@@ -23,7 +23,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
 
 }
-ol{
+ol, ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,8 +34,11 @@ li{
 p{
 
 }
-a{
-
+a {
+  color: #46a78a;
+}
+em {
+  color: #46a78a;
 }
 /*------------------------------------------
 *  Hero
@@ -65,7 +68,9 @@ a{
 }
 .news-link {
   color: #386d90;
+  display: block;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 .news-meta-item {
   display: inline;
@@ -216,32 +221,6 @@ a{
   div.content_section_text a {
     text-decoration: none;
     font-weight: bold;
-  }
-
-  div.table_of_contents_item a:link,
-  div.table_of_contents_item a:visited,
-  div.table_of_contents_item a:active {
-    color: #000000;
-  }
-
-  div.table_of_contents_item a:hover {
-    background-color: #000000;
-
-    color: #FFFFFF;
-  }
-
-  div.content_section_text a:link,
-  div.content_section_text a:visited,
-   div.content_section_text a:active {
-    background-color: #DCDFE6;
-
-    color: #000000;
-  }
-
-  div.content_section_text a:hover {
-    background-color: #000000;
-
-    color: #DCDFE6;
   }
 
   div.validator {
